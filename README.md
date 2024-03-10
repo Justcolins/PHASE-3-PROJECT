@@ -1,12 +1,12 @@
-#Business Understanding
+# Business Understanding
 
 SyriaTel, a telecommunications company, faces a growing challenge with increasing customer churn rates. The company seeks to leverage data-driven insights to understand the underlying factors contributing to this trend and develop strategies to mitigate churn. By analyzing customer usage patterns and behavior, SyriaTel aims to identify customers at risk of churning and discern the key drivers influencing their decision to leave. The primary objective is to develop predictive models that accurately forecast churn and enable proactive retention efforts. Ultimately, by addressing customer concerns promptly and fostering loyalty, SyriaTel aims to reduce churn rates, enhance customer satisfaction, and sustain long-term business growth.
 
-#Problem Statement:
+# Problem Statement:
 
 SyriaTel, a telecommunications company, faces challenges with increasing customer churn rates. The company seeks to understand the underlying factors contributing to churn and develop strategies to mitigate customer attrition.
 
-#Objectives:
+# Objectives:
 
 1. Develop predictive models to forecast customer churn.
  
@@ -14,11 +14,11 @@ SyriaTel, a telecommunications company, faces challenges with increasing custome
  
 3. Provide data-driven insights to foster customer loyalty and reduce churn rates.
 
-#Description:
+# Description:
 
 The dataset contains information related to telecommunications customers, including various features such as account length, call details, service plans, and customer churn status. Each row represents a unique customer record, and the dataset aims to analyze factors influencing customer churn.
 
-#Methodology:
+# Methodology:
 
 1. Data Understanding: Explore the dataset to understand its structure, features, and target variable.
 
@@ -38,7 +38,7 @@ The dataset contains information related to telecommunications customers, includ
 
 9. Cross-Validation: Validate model performance using k-fold cross-validation to ensure robustness.
 
-#Models Used:
+# Models Used:
 
 1. Logistic Regression
    
@@ -50,7 +50,7 @@ The dataset contains information related to telecommunications customers, includ
 
 5. Python with libraries like Pandas, NumPy, Matplotlib, Seaborn for data manipulation and visualization.
    
-#RESULTS
+# RESULTS
 
 1. Model Performance
    - Logistic Regression achieved an accuracy of 0.84, serving as the baseline model.
@@ -65,7 +65,7 @@ The dataset contains information related to telecommunications customers, includ
      - Total night charge
      - Total day calls
 
-3. **Hyperparameter Tuning:**
+3. Hyperparameter Tuning:
    - Random Forest Classifier achieved optimal performance with parameters:
      - n_estimators: 300
      - min_samples_split: 2
@@ -85,7 +85,7 @@ The dataset contains information related to telecommunications customers, includ
 
 Overall, the Random Forest Classifier demonstrated superior performance in predicting customer churn, with significant feature importance and robust cross-validation scores.
 
-#CONCLUSIONS
+# CONCLUSIONS
 
 Based on the analysis conducted on the SyriaTel telecommunication company's customer churn data, we can draw the following conclusions:
 
@@ -99,7 +99,7 @@ Based on the analysis conducted on the SyriaTel telecommunication company's cust
 
 Overall, by leveraging data-driven insights and predictive modeling techniques, SyriaTel can develop effective strategies to mitigate customer churn, foster customer loyalty, and ultimately improve its business performance.
 
-#RECOMMENDATIONS
+# RECOMMENDATIONS
 
 1. Implement Targeted Retention Strategies: Utilize the identified influential features such as international call charges, nighttime usage patterns, and customer service calls to design personalized retention strategies for at-risk customers. Providing incentives or discounts for international calls, improving nighttime service quality, and offering proactive customer support can help mitigate churn.
 
